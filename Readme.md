@@ -130,4 +130,4 @@ After setup, try asking Claude these to see the agent in action:
 
 ---
 
-*Workshop prepared for CSI*
+*Workshop prepared for CSI - DAY 1*
