@@ -1,0 +1,27 @@
+{
+  "preferences": {
+    "coworkWebSearchEnabled": true,
+    "coworkScheduledTasksEnabled": false,
+    "ccdScheduledTasksEnabled": false,
+    "sidebarMode": "chat"
+  },
+  "mcpServers": {
+    "agentMCP": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--python",
+        "3.11",
+        "--with",
+        "mcp[cli]",
+        "--with",
+        "requests",
+        "--with",
+        "urllib3",
+        "mcp",
+        "run",
+        "C:/xampp/htdocs/agent/agent.py"
+      ]
+    }
+  }
+}
